@@ -1,0 +1,18 @@
+root@danny2-HP-Laptop-15-dy2xxx:/home/danny2/linux-tools/drivers/mremap# python3 dumper_old.py 
+m2 connected
+current time  0
+napp pid is  52458
+start first-time checkpoint
+done first-time checkpoint
+current time  0.04252314567565918
+transfer the base checkpoint file
+transfering spirity.binary!
+spirity.binary                                            100%   15MB   1.2MB/s   00:13    
+done file transfer
+transfering spirity.header!
+spirity.header                                            100% 3672     1.2MB/s   00:00    
+done file transfer
+current time  13.984390020370483
+done injection on m2
+current time  17.294374704360962
+root@danny2-HP-Laptop-15-dy2xxx:/home/danny2/linux-tools/drivers/mremap# 
