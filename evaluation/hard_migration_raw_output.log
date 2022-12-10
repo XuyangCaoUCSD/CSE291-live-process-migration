@@ -1,69 +1,18 @@
-root@danny2-HP-Laptop-15-dy2xxx:/home/danny2/linux-tools/drivers/mremap# python3 dumper.py 
+root@danny2-HP-Laptop-15-dy2xxx:/home/danny2/linux-tools/drivers/mremap# python3 dumper_old.py 
 m2 connected
 current time  0
-napp pid is  50096
+napp pid is  52458
 start first-time checkpoint
 done first-time checkpoint
-current time  0.045966148376464844
+current time  0.04252314567565918
 transfer the base checkpoint file
 transfering spirity.binary!
-spirity.binary                                                                 100%   15MB   1.1MB/s   00:13    
+spirity.binary                                            100%   15MB   1.2MB/s   00:13    
 done file transfer
 transfering spirity.header!
-spirity.header                                                                 100% 3672     1.1MB/s   00:00    
+spirity.header                                            100% 3672     1.2MB/s   00:00    
 done file transfer
-current time  14.138597965240479
-============================================================
-round 0
-I will wait 5 seconds to for you to modify the app
-start updating checkpoint
-current time  19.143875122070312
-done updating checkpoint
-current time  19.595725536346436
-transfer the checkpoint diff
-transfering binary_diff!
-binary_diff                                                                    100%  869   734.5KB/s   00:00    
-done file transfer
-transfering header_diff!
-header_diff                                                                    100%  257   234.9KB/s   00:00    
-done file transfer
-current time  20.26719832420349
-applied patch on m2
-current time  20.404877424240112
-============================================================
-round 1
-I will wait 5 seconds to for you to modify the app
-start updating checkpoint
-current time  25.41014075279236
-done updating checkpoint
-current time  25.885236978530884
-transfer the checkpoint diff
-transfering binary_diff!
-binary_diff                                                                    100%  707   560.2KB/s   00:00    
-done file transfer
-transfering header_diff!
-header_diff                                                                    100%  257   202.3KB/s   00:00    
-done file transfer
-current time  26.642810821533203
-applied patch on m2
-current time  26.76000213623047
-============================================================
-round 2
-I will wait 5 seconds to for you to modify the app
-start updating checkpoint
-current time  31.76524806022644
-done updating checkpoint
-current time  32.212616205215454
-transfer the checkpoint diff
-transfering binary_diff!
-binary_diff                                                                    100%  219   227.2KB/s   00:00    
-done file transfer
-transfering header_diff!
-header_diff                                                                    100%    5     4.0KB/s   00:00    
-done file transfer
-current time  32.9652681350708
-applied patch on m2
-current time  33.049962759017944
+current time  13.984390020370483
 done injection on m2
-current time  36.48535132408142
+current time  17.294374704360962
 root@danny2-HP-Laptop-15-dy2xxx:/home/danny2/linux-tools/drivers/mremap# 
